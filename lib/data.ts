@@ -75,7 +75,7 @@ export const experiencesData = [
     company: "APPX Inc.",
     location: "Jacksonville, FL",
     description:
-      "I built web templated for various state archives for data management.",
+      "I built web templates for various state archives for data management systems.",
     icon: React.createElement(FaComputer),
     date: "2016 - 2017",
   },
@@ -93,7 +93,7 @@ export const experiencesData = [
     company: "Credit Suisse Bank",
     location: "Research Triangle, NC",
     description:
-      "I worked on the full-stack of a dashboard for a data management system used by the bank's business clients and data analysts.",
+      "I worked on the full-stack of a dashboard app for a data management system used by the bank's business clients and data analysts.",
     icon: React.createElement(CgSwiss),
     date: "2019 - 2023",
   },
