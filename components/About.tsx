@@ -20,8 +20,8 @@ const About = () => {
         >
             <SectionHeading>About me</SectionHeading>
             <p className="mb-3">
-                Greetings! I'm thrilled to share my journey with you, which began with a passion for technology ignited during my high school years. This passion led me to pursue a{" "}
-                <span className="font-bold italic">Bachelor's degree in Computer Science</span>, where I delved deeper into the world of programming and software development.
+                Greetings! I&apos;m thrilled to share my journey with you, which began with a passion for technology ignited during my high school years. This passion led me to pursue a{" "}
+                <span className="font-bold italic">Bachelor&apos;s degree in Computer Science</span>, where I delved deeper into the world of programming and software development.
                 Upon graduating from college, I embarked on my professional journey, initially focusing on web applications.
             </p>
             <p className="mb-3">
@@ -34,7 +34,7 @@ const About = () => {
             </p>
             <p className="mb-3">
                 Today, I find myself deeply entrenched in the dynamic world of{" "}
-                <span className="font-bold italic">financial technology (FinTech)</span>, where I've had the privilege of contributing to multiple banks and financial centers.
+                <span className="font-bold italic">financial technology (FinTech)</span>, where I&apos;ve had the privilege of contributing to multiple banks and financial centers.
                 As a full-stack developer, I thrive on the diverse and ever-evolving nature of my work, leveraging my proficiency in frontend technologies like{" "}
                 <span className="font-bold italic">React and Next.js</span> alongside backend technologies (including{" "}
                 <span className="font-bold italic">Java and Node.js</span>) to drive innovation and deliver impactful solutions.
