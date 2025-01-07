@@ -9,6 +9,18 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 import { motion } from "framer-motion";
 
+function renderDescription(description: string) {
+    return (
+        <span dangerouslySetInnerHTML={{
+            __html: description.replace(
+                'IPaC',
+                '<a href="https://ipac.ecosphere.fws.gov/" target="_blank" rel="noopener noreferrer" style="color: #4a90e2; text-decoration: none;" onmouseover="this.style.textDecoration=\'underline\';" onmouseout="this.style.textDecoration=\'none\';">IPaC</a>'
+            )
+        }} />
+    );
+}
+
+
 const Experience = () => {
     const { ref } = useSectionInView("Experience");
     const { theme } = useTheme();
@@ -54,7 +66,7 @@ const Experience = () => {
                             </div>
 
                             <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                                {item.description}
+                                {renderDescription(item.description)}
                             </p>
                         </VerticalTimelineElement>
                     </React.Fragment>

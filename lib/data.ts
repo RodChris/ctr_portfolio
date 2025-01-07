@@ -1,5 +1,5 @@
 import React from "react";
-import { FaReact } from "react-icons/fa";
+import { FaFish, FaHiking, FaMountain, FaReact, FaTree } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaComputer } from "react-icons/fa6";
 import { TbBuildingBank } from "react-icons/tb";
@@ -106,6 +106,15 @@ export const experiencesData = [
     icon: React.createElement(SiBankofamerica),
     date: "2023 - 2024",
   },
+  {
+    title: "Software Engineer",
+    company: "U.S. Fish and Wildlife Service",
+    location: "Falls Church, VA",
+    description: 
+      'I worked on multiple web applications for the agency\'s policies under the Endangered Species Act; most notably, <a href="https://ipac.ecosphere.fws.gov/" target="_blank" rel="noopener noreferrer">IPaC</a>',
+    icon: React.createElement(FaTree),
+    date: "2024 - Present",
+  }
 ] as const;
 
 export const projectsData = [
@@ -193,6 +202,10 @@ export const skillsData = [
     img: icons.javascript,
   },
   {
+    name: "TypeScript",
+    img: icons.typeScript
+  },
+  {
     name: "React",
     img: icons.react
   },
@@ -201,20 +214,12 @@ export const skillsData = [
     img: icons.redux
   },
   {
-    name: "Git",
-    img: icons.git
-  },
-  {
     name: "Sass",
     img: icons.sass
   },
   {
     name: "Tailwind",
     img: icons.tailwind
-  },
-  {
-    name: "TypeScript",
-    img: icons.typeScript
   },
   {
     name: "Node.js",
@@ -240,6 +245,10 @@ export const skillsData = [
     name: "JIRA",
     img: icons.jira
   },
+  {
+    name: "Git",
+    img: icons.git
+  }
   // {
   //   name: "Python",
   //   img: ""

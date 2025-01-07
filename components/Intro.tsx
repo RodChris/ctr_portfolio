@@ -66,15 +66,11 @@ const Intro = () => {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                <span className="font-bold">Hi, my name is Christian.</span> I am a{" "}
-                <span className="font-bold">full-stack developer</span> with a strong emphasis on{" "}
-                <span className="font-bold">front-end development.</span> I have{" "}
-                <span className="font-bold">8 years</span> of professional experience developing amazing{" "}
-                <span className="font-bold italic">web applications</span> with cutting-edge technologies, particularly{" "}
-                <span className="underline">
-                    <span className="font-bold">React</span> and{" "}
-                    <span className="font-bold">Node.js</span>
-                </span>
+                <span className="font-bold">Hello, my name is Christian.</span><br />I am a{" "}
+                <span className="font-bold">full-stack software engineer </span>with{" "}
+                <span className="font-bold">9 years</span> of professional experience developing amazing and innovative{" "}
+                <span className="font-bold italic">web applications.</span> Explore my{" "}
+                <span className="font-bold">projects, skills, and experience</span> below!
             </motion.h1>
 
             <motion.div
