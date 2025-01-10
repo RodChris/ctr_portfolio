@@ -33,7 +33,7 @@ const About = () => {
                 <span className="font-bold italic">full-stack developer</span>.
             </p>
             <p className="mb-3">
-                Today, I find myself deeply entrenched in the dynamic world of{" "}
+                For the majority of my career so far, I have been in the dynamic world of{" "}
                 <span className="font-bold italic">financial technology (FinTech)</span>, where I&apos;ve had the privilege of contributing to multiple banks and financial centers.
                 As a full-stack developer, I thrive on the diverse and ever-evolving nature of my work, leveraging my proficiency in frontend technologies like{" "}
                 <span className="font-bold italic">React and Next.js</span> alongside backend technologies (including{" "}

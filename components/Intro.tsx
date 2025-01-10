@@ -66,7 +66,7 @@ const Intro = () => {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                <span className="font-bold">Hello, my name is Christian.</span><br />I am a{" "}
+                <span className="font-bold">Hello, my name is Christian Rodriguez.</span><br />I am a{" "}
                 <span className="font-bold">full-stack software engineer </span>with{" "}
                 <span className="font-bold">9 years</span> of professional experience developing amazing and innovative{" "}
                 <span className="font-bold italic">web applications.</span> Explore my{" "}
@@ -96,7 +96,7 @@ const Intro = () => {
 
                 <a
                     className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-                    href="/Resume.pdf"
+                    href="/Christian_Rodriguez_Resume.pdf"
                     download
                 >
                     Download Resumé{" "}
