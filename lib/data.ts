@@ -114,14 +114,14 @@ export const experiencesData = [
     description:
       'I worked on multiple web applications for the agency\'s policies under the Endangered Species Act; most notably, <a href="https://ipac.ecosphere.fws.gov/" target="_blank" rel="noopener noreferrer">IPaC</a>',
     icon: React.createElement(FaTree),
-    date: "2024 - Present",
+    date: "2024 - 2025",
   },
   {
     title: "Senior Software Engineer (Full Stack)",
     company: "Hyatt",
     location: "Remote",
     description:
-      'I worked on delivery of a web application for the company\'s world-class luxury travel agency called \'Prive\', <a href="https://www.hyatt.com/prive" target="_blank" rel="noopener noreferrer">IPaC</a>',
+      'I worked on delivery of a web application for the company\'s world-class luxury travel agency called <a href="https://www.hyatt.com/prive" target="_blank" rel="noopener noreferrer">Prive</a>',
     icon: React.createElement(LuHotel),
     date: "2025 - Present",
   }
