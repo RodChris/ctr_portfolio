@@ -5,6 +5,7 @@ import { FaComputer } from "react-icons/fa6";
 import { TbBuildingBank } from "react-icons/tb";
 import { CgSwiss } from "react-icons/cg";
 import { SiBankofamerica } from "react-icons/si";
+import { LuHotel } from "react-icons/lu";
 
 import * as thumbnails from '@/public/thumbnails/index';
 import * as icons from "@/public/icons/index";
@@ -110,10 +111,19 @@ export const experiencesData = [
     title: "Software Engineer",
     company: "U.S. Fish and Wildlife Service",
     location: "Falls Church, VA",
-    description: 
+    description:
       'I worked on multiple web applications for the agency\'s policies under the Endangered Species Act; most notably, <a href="https://ipac.ecosphere.fws.gov/" target="_blank" rel="noopener noreferrer">IPaC</a>',
     icon: React.createElement(FaTree),
     date: "2024 - Present",
+  },
+  {
+    title: "Senior Software Engineer (Full Stack)",
+    company: "Hyatt",
+    location: "Remote",
+    description:
+      'I worked on delivery of a web application for the company\'s world-class luxury travel agency called \'Prive\', <a href="https://www.hyatt.com/prive" target="_blank" rel="noopener noreferrer">IPaC</a>',
+    icon: React.createElement(LuHotel),
+    date: "2025 - Present",
   }
 ] as const;
 

@@ -68,7 +68,7 @@ const Intro = () => {
             >
                 <span className="font-bold">Hello, my name is Christian Rodriguez.</span><br />I am a{" "}
                 <span className="font-bold">full-stack software engineer </span>with{" "}
-                <span className="font-bold">9 years</span> of professional experience developing amazing and innovative{" "}
+                <span className="font-bold">10 years</span> of professional experience developing amazing and innovative{" "}
                 <span className="font-bold italic">web applications.</span> Explore my{" "}
                 <span className="font-bold">projects, skills, and experience</span> below!
             </motion.h1>
