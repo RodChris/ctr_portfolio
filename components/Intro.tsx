@@ -67,9 +67,10 @@ const Intro = () => {
                 animate={{ opacity: 1, y: 0 }}
             >
                 <span className="font-bold">Hello, my name is Christian Rodriguez.</span><br />I am a{" "}
-                <span className="font-bold">full-stack software engineer </span>with{" "}
+                <span className="font-bold">Senior Full-Stack Software Engineer </span>with{" "}
                 <span className="font-bold">10 years</span> of professional experience developing amazing and innovative{" "}
-                <span className="font-bold italic">web applications.</span> Explore my{" "}
+                <span className="font-bold italic">web applications.</span> I enjoy creating clean, user-focused solutions and am expanding my expertise in 
+                <span className="font-bold italic"> AI-powered applications</span> and developer tools. Explore my{" "}
                 <span className="font-bold">projects, skills, and experience</span> below!
             </motion.h1>
 
